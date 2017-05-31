@@ -36,8 +36,8 @@ is:
 \f[F(k,l) = \displaystyle\sum\limits_{i=0}^{N-1}\sum\limits_{j=0}^{N-1} f(i,j)e^{-i2\pi(\frac{ki}{N}+\frac{lj}{N})}\f]\f[e^{ix} = \cos{x} + i\sin {x}\f]
 
 Here f is the image value in its spatial domain and F in its frequency domain. The result of the
-transformation is complex numbers. Displaying this is possible either via a *real* image and a
-*complex* image or via a *magnitude* and a *phase* image. However, throughout the image processing
+transformation is complex numbers. Displaying a complex image is possible either via its *real part* image and its
+*imaginary part* image or via a *magnitude* and a *phase* image. However, throughout the image processing
 algorithms only the *magnitude* image is interesting as this contains all the information we need
 about the images geometric structure. Nevertheless, if you intend to make some modifications of the
 image in these forms and then you need to retransform it you'll need to preserve both of these.
